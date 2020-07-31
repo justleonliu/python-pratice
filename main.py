@@ -12,12 +12,12 @@ bmi = weight/(height**2)
 
 
 if bmi >= 18.5 and bmi <= 25 :
-  print('Your Bmi is normal')
+  print('Your are normal')
 elif bmi >= 25 and bmi <= 30 :
-  print('Your Bmi is overweight')
+  print('Your are overweight')
 elif bmi >= 30 and bmi <= 40 :
-  print('Your Bmi is badly overweight')
+  print('Your are badly overweight')
 elif bmi >= 40 :
-  print('Your Bmi is extremly overweight')
+  print('Your are extremly overweight')
   
 print(bmi)
